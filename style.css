@@ -1,0 +1,58 @@
+body {
+  background-color:lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Updated Styles */
+.tag {
+  border: 1px solid palevioletred;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tag-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:lightgreen; /* Default header background color */
+}
+
+.tag-header.collapsed {
+  background-color:black; /* Background color when collapsed */
+}
+
+.left-arrow {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tag-name {
+  cursor: pointer;
+  color: rgb(189, 50, 15);
+  margin-right: 10px;
+}
+
+.add-child-button {
+  background-color:lightblue;
+  color: #3a0d12;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+  float: right;
+}
+
+.tag-data-input {
+  width: 100%;
+  padding: 4px;
+  margin-top: 5px;
+}
+/* Different Colors for Fields */
+.tag:nth-child(odd) {
+  background-color: lightcoral; /* Light blue */
+}
+
+.tag:nth-child(even) {
+  background-color:wheat; /* Moccasin */
+}
